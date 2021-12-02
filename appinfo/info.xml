@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>querybuilder_listener</id>
+	<name>QueryBuilder Listener</name>
+	<summary>Encrypt select database entries using user-specific encryption keys.</summary>
+	<description>Encrypt select database entries using user-specific encryption keys.</description>
+	<version>1.0.0</version>
+	<licence>agpl</licence>
+	<author>Andrew Summers</author>
+	<namespace>QueryBuilderListener</namespace>
+	<default_enable/>
+	<types>
+		<prevent_group_restriction />
+	</types>
+	<category>tools</category>
+	<dependencies>
+		<nextcloud min-version="20" max-version="23" />
+	</dependencies>
+</info>
